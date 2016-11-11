@@ -22,5 +22,5 @@ return(solution)
 }
 
 
-ans <- SIRModel(pop.size=1, initNbInfect=.01, beta=1/6, gamma=1/6, times=seq(1,100,0.01), plotit=TRUE, legend.x=80, legend.y=95)
+ans <- SIRModel(pop.size=1, initNbInfect=.01, beta=2/6, gamma=1/6, times=seq(1,100,0.01), plotit=TRUE, legend.x=80, legend.y=95)
 
